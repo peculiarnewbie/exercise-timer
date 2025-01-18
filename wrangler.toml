@@ -1,0 +1,13 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "exercise-timer"
+compatibility_date = "2024-11-12"
+assets = { directory = "./dist" }
+
+# Workers Logs
+# Docs: https://developers.cloudflare.com/workers/observability/logs/workers-logs/
+# Configuration: https://developers.cloudflare.com/workers/observability/logs/workers-logs/#enable-workers-logs
+# [observability]
+# enabled = true
+
+[vars]
+BUN_VERSION = "1.1.30"
